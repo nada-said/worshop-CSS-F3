@@ -1,13 +1,18 @@
 
 body {
     margin: 0;
-    font-family: 'Courier New', monospace;
-    background-color: #f4f4f4;
+    font-family: Arial, Helvetica ;
+    background-image: url("paper.gif");
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(50, 2, 50);
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    
   }
   
 
   header {
-    background-color: #333333;
+    background-color: indianred;
     color: white;
     padding: 10px 0;
   }
@@ -21,10 +26,9 @@ body {
     width: 100px;
     height: auto;
     margin-right: 20px;
-
     
   }
-
+  
   header ul {
     list-style: none;
     display: flex;
@@ -115,7 +119,7 @@ body {
   
   
   footer {
-    background-color: #333;
+    background-color: indianred;
     color: white;
     padding: 20px;
     text-align: center;
